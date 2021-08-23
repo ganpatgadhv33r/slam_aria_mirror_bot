@@ -54,7 +54,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
     buttons = button_build.ButtonMaker()
     buttons.buildbutton("Repo", "https://github.com/ayushteke/slam_aria_mirror_bot")
-    buttons.buildbutton("Channel", "https://t.me/AT_BOTs")
+    buttons.buildbutton("Channel", "https://t.me/gadhv33rr")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     LOGGER.info('UID: {} - UN: {} - MSG: {}'.format(update.message.chat.id, update.message.chat.username, update.message.text))
     uptime = get_readable_time((time.time() - botStartTime))
